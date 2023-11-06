@@ -1,0 +1,295 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 81px;
+  background-color: #52bee5;
+  font-family: 'Quicksand', sans-serif;
+  position:fixed;
+  width: 100%;
+}
+li {
+  float: right;
+}
+li a {
+ display:block;
+ text-align: center;
+ padding: 20px;
+ text-decoration: none;
+ font-size: 25px;
+ margin-bottom: 30px;
+ font-family: 'Quicksand', sans-serif;
+ color: #000;
+}
+li a:hover {
+  background-color: #ECC30B;
+  height: 80px;  
+}
+.bigheader{
+  margin: 0px;
+  padding: 140px;
+  background-image: url("../Images/bluegridbackroundimage2.PNG");
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  margin:0px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 5px;
+  padding: 0px;
+}
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 400px;
+  margin: 70px auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  grid-template-areas: "hover" "disabled";
+  height: 100px;
+  cursor: pointer;
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: #856A5d;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+  font-family: 'Quicksand', sans-serif;
+  font-size: medium;
+}
+/* active state */
+.hoverMe:hover {
+  background-color:rgb(219, 186, 232);
+  color: #000;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #856A5D;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+#container{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated{
+  float: left;
+  width: 200px;
+  margin: 20px;
+}
+#container1{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated1{
+  float: right;
+  width: 200px;
+  margin: 20px;
+}
+#container2{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated2{
+  float: left;
+  width: 150px;
+  margin: 20px;
+}
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.categoryGridArea1 {
+  background-image: url("../Images/Device\ Display\ Falling\ View\ Image.jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea2 {
+  background-image: url("../Images/phonedisplayyellowbackgorundimage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea3 {
+  background-image: url("../Images/circleofyellowcomputers.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea4 {
+  background-image: url("../Images/yellowlaptopdisplayimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea5 {
+  background-image: url("../Images/Blueprint\ Phone\ Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea6 {
+  background-image: url("../Images/blackandwhitecomputerdisplayimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+.inner{
+  padding-top: 20px;
+}
+.header{
+  text-align: center;
+  color: #000000;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 400px;
+  margin: 70px auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+.skill-box{
+  padding: 1rem;
+  color:#000000
+}
+.cimg{
+  width: 170px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.skill-title h3{
+  color: #000000;
+  margin-top: .05rem;
+  padding: 30px;
+}
+.skill-con{
+  width: 50px;
+}
+.h3{
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 200px;
+}
